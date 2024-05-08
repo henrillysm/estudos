@@ -1,0 +1,20 @@
+body {
+    background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+    text-align: center ;
+}
+h1, h2, ol, ul{
+    text-align: center;
+    list-style-position:inherit;
+    list-style: none;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 100px;
+    border-radius: 50%;
+}    
+li {
+    text-align:center;
+}

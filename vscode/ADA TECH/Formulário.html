@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários no HTML</title>
+</head>
+<body>
+    <form action=>
+        <div>
+            <label for="nome_completo" placeholder="Ex: Henrilly de Sousa">Nome completo</label>
+            <input type="text" name="Nome" id="nome_completo" placeholder="Ex: Henrilly de Sousa Maciel">
+        </div>
+        <br>
+        <div>
+        <label for="senha_usuario">Senha:</label>
+        <input type="password" name="senha_usuario" id="senha_usuario" placeholder="Ex:senha123">
+        </div>
+        <br>
+        <div>
+        <label for="senha_usuario">Número:</label>
+        <input type="number" name="Nome" id="senha_usuario">
+        </div>
+        <br>
+        <div>
+        <label for="color">Color</label>
+        <input type="color" name="Nome" id="color">
+        </div>
+        <br>
+        <div>
+        <label for="range">Range</label>
+        <input type="range" name="Nome" id="range" min="0" max="100" value="0">
+        </div>
+        <br>
+        <div>
+        <label for="primeiro_checkbox">Receber atualização</label>
+        <input type="checkbox" name="Nome" id="primeiro_checkbox">
+        </div>
+        <br>
+        <div>
+        <label for="segundo_checkbox">Confirmo minha presença</label>
+        <input type="checkbox" id="segundo_checkbox">
+        </div>
+        <br>
+        <div>
+            <label for="radio">SIM</label>
+            <input type="radio" name="sim-não" id="radio" value="SIM">
+        </div>
+        <br>
+        <div>
+            <label for="test_radio">NÃO</label>
+            <input type="radio" name="sim-não" id="test_radio" value="NÃO" checked>
+        </div>
+        <br>
+        <div>
+        <label for="textarea">Escreva sobre você</label><br>
+        <textarea name="escreva" id="textarea" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="frutas">Qual é a sua fruta favorita?</label>
+            <select name="frutinhas" id="frutas">
+                <option value="Maça">Maçã</option>
+                <option value="Uva">Uva</option>
+            </select>
+        </div>
+
+        <input type="submit">
+
+        <input type="reset" name="" id="" value="Limpar">
+    </form>
+</body>
+</html>

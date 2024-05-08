@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Tabela de alunos</h1>
+        <table border="2">
+            <!--Cabeçalho-->
+            <thead>
+                <!--Table row - linha da tabela-->
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Matrícula</th>
+                </tr>
+            </thead>
+            <!--Corpo-->
+            <tbody>
+                <!--Primeira linha-->
+                <tr>
+                    <td>Carol Danvers</td>
+                    <td>carol.danvers@gmail.com</td>
+                    <td>1</td>
+                </tr>
+                <!--Segunda linha-->
+                <tr>
+                    <td>Peter Park</td>
+                    <td>peter.park@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <!--Terceira linha-->
+                <tr>
+                    <td>Tony Stark</td>
+                    <td>tony.stark@gmail.com</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <h1>Tabela de despesas</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">15/06/2022</td>
+                    <td>Despesa</td>
+                    <td>Almoço</td>
+                    <td>R$ 35,00</td>
+                </tr>
+                <tr>
+                    <!--<td>15/06/2022</td> "Rowspan -> Mescla a linha, o '2' significa duas linhas"-->
+                    <td>Receita</td>
+                    <td>Salário</td>
+                    <td>R$ 3.768,00</td>
+                </tr>
+            </tbody>            
+        </table>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+Mas agora vamos ao seu problema, veja que o erro que você está recebendo é o:
+error: remote origin already exists.
+tradução livre: uma origem remota com o nome de "origin" já existe
+
+Isso significa que você já executou o comando git remote add origin <url-do-repositorio> em algum momento, para você conferir qual é a url que você adicionou ao origin você pode rodar o comando: git remote get-url origin.
+
+Se essa não for a url, então, você pode atualizar ela com o comando git remote set-url origin <nova-url>
+
+E para finalizar, o comando git push foi rodado, e o resultado foi Everything up-to-date, ou seja, tudo está atualizado remotamente conforme o seu repositório local.
+
+Verificar o repositório atual:
+git remote get-url origin
+git remote set-url origin <nova-url>

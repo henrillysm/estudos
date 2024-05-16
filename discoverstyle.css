@@ -46,6 +46,7 @@ body * {
 #container {
     /*border: 1px solid red;*/
     /*width: 360px;*/
+    /*Para estender completamente a tela*/
     width: 100%;
     max-width: 588px;
     /*height: 712px;*/
